@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Product from '@/app/component/product';
 
 export default function Portfolio(){
     return(
@@ -48,39 +49,35 @@ export default function Portfolio(){
             </div>
             <h2 className="text-5xl text-center text-slate-600">Product</h2>
             <div className="pt-10 flex items-center flex-wrap justify-center">
-
+                <Product></Product>
             </div>
 
             <h2 className="text-5xl text-center text-slate-600">Skill</h2>
             <p className="text-center">今まで使用してきた技術です。</p>
-            <div className="pt-10 flex items-center flex-wrap justify-center">
-                <div>
-                    <p>星1: 触ったことがある</p>
-                    <p>星2: プロダクトを作ったことがある</p>
-                    <p>星3: 複数のプロダクトを作ったことがある</p>
+            <div className="flex flex-col items-center flex-wrap justify-center">
+                <div className="pt-10 flex flex-col items-start justify-center text-slate-600">
+                    <p className="text-5xl">☆☆☆</p>
+                    <p className="text-xl">複数のプロダクトを作成したことがある</p>
+                    <p>Python / HTML, CSS, JavaScript / Java</p>
+                </div>
+                <div className="pt-10 flex flex-col items-start justify-center text-slate-600">
+                    <p className="text-5xl">☆☆</p>
+                    <p>TypeScript, React, Next.js / Dart, Flutter / C#, Unity / Firebase / MongoDB</p>
+                </div>
+                <div className="pt-10 flex flex-col items-start justify-center text-slate-600">
+                    <p className="text-5xl">☆</p>
                 </div>
             </div>
-            <div className="pt-10 flex items-center flex-wrap justify-center">
-                <div className="pr-24">
-                    <p>Python</p>
-                    <p>HTML, CSS, JavaScript</p>
-                    <p>Java</p>
-                </div>
-                <div className="pr-24">
-                    <p>TypeScript / React / Next.js</p>
-                    <p>Dart / Flutter</p>
-                    <p>C# / Unity</p>
-                    <p>Firebase</p>
-                    <p>MongoDB</p>
-                    <p>MySQL</p>
-                </div>
+            
+
+
+
                 <div>
                     <p>C言語</p>
                     <p>Ruby / Ruby on rails</p>
                     <p>Google App Script</p>
                     <p>SQLite</p>
                 </div>
-            </div>
         </div>
     );
 }
