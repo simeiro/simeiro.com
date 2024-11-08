@@ -48,7 +48,7 @@ export default function Portfolio(){
             
             </div>
             <h2 className="text-5xl text-center text-slate-600">Product</h2>
-            <div className="pt-10 flex items-center flex-wrap justify-center">
+            <div className="py-10 flex items-center flex-wrap justify-center">
                 <Product></Product>
             </div>
 
