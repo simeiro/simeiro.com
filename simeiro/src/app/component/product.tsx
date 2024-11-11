@@ -19,8 +19,8 @@ export default function Product(){
                     <div className="flex-1 overflow-hidden">
                         <Image
                             src="/product/Highlight39.png"
-                            width={100}
-                            height={100}
+                            width={500}
+                            height={500}
                             alt="Highlight39"
                             className="w-full h-full object-cover"
                         />
@@ -45,8 +45,8 @@ export default function Product(){
                         <div className="flex-1 overflow-hidden">
                             <Image
                                 src="/product/cac.png"
-                                width={100}
-                                height={100}
+                                width={500}
+                                height={500}
                                 alt="定例総会bot"
                                 className="w-full h-full object-cover"
                             />
@@ -104,8 +104,8 @@ export default function Product(){
                         <div className="flex-1 overflow-hidden">
                             <Image
                                 src="/profile/simeiro.jpg"
-                                width={100}
-                                height={100}
+                                width={500}
+                                height={500}
                                 alt="Chorus Medley"
                                 className="w-full h-full object-cover"
                             />
@@ -137,8 +137,8 @@ export default function Product(){
                         <div className="flex-1 overflow-hidden">
                             <Image
                                 src="/product/Taber.png"
-                                width={100}
-                                height={100}
+                                width={500}
+                                height={500}
                                 alt="Taber"
                                 className="w-full h-full object-cover"
                             />
@@ -170,8 +170,8 @@ export default function Product(){
                     <div className="flex-1 overflow-hidden">
                         <Image
                             src="/product/キョウガチャ.png"
-                            width={100}
-                            height={100}
+                            width={300}
+                            height={300}
                             alt="キョウガチャ"
                             className="w-full h-full object-cover"
                         />
@@ -205,8 +205,8 @@ export default function Product(){
                     <div className="flex-1 overflow-hidden">
                         <Image
                             src="/product/Takopa.png"
-                            width={100}
-                            height={100}
+                            width={300}
+                            height={300}
                             alt="Takopa"
                             className="w-full h-full object-cover"
                         />
@@ -273,8 +273,8 @@ export default function Product(){
                         <div className="flex-1 overflow-hidden">
                             <Image
                                 src="/product/hzgame.png"
-                                width={100}
-                                height={100}
+                                width={500}
+                                height={500}
                                 alt="hzgame"
                                 className="w-full h-full object-cover"
                             />
