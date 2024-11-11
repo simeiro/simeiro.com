@@ -4,7 +4,7 @@ import Product from '@/app/component/product';
 export default function Portfolio(){
     return(
         <div className="bg-teal-100 min-h-screen w-screen">
-            <h1 className="pt-10 text-5xl text-slate-600 ">ポートフォリオ(工事中)</h1>
+            <h1 className="py-10 text-5xl text-slate-600 text-center">ポートフォリオ</h1>
             {/* <Image
                 src="/profile/tatsukushi.jpg"
                 width={1200}
@@ -74,7 +74,7 @@ export default function Portfolio(){
                 
             </div>
 
-            <h2 className="text-5xl text-center text-slate-600">Intern</h2>
+            <h2 className="pt-10 text-5xl text-center text-slate-600">Intern</h2>
             <div className="py-4 w-auto flex flex-col items-center flex-wrap justify-center">
                 <details className="text-slate-600">
                         <summary className="text-2xl">株式会社ナレッジラボ</summary>
@@ -99,8 +99,8 @@ export default function Portfolio(){
                             <div className="flex-1 overflow-hidden">
                                 <Image
                                     src="/product/ナレッジラボ.jpg"
-                                    width={100}
-                                    height={100}
+                                    width={300}
+                                    height={300}
                                     alt="Highlight39"
                                     className="w-full h-full object-cover"
                                 />

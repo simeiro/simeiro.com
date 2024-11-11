@@ -14,7 +14,7 @@ export default function Product(){
                         <p>使用技術: Python(Discord.py), SQLite</p>
                         <a href="このリンク" className="text-blue-500 hover:text-blue-700">招待リンク</a>/
                         <a href="https://github.com/simeiro/Highlight39Revised" className="text-blue-500 hover:text-blue-700">GitHub</a>/
-                        <a href="https://x.com/simeir0" className="text-blue-500 hover:text-blue-700">きじ</a>
+                        {/* <a href="https://x.com/simeir0" className="text-blue-500 hover:text-blue-700">きじ</a> */}
                     </div>
                     <div className="flex-1 overflow-hidden">
                         <Image
@@ -69,7 +69,7 @@ export default function Product(){
                             <p>使用技術: HTML/CSS, JavaScript</p>
                             <a href="https://chromewebstore.google.com/detail/chorusmedley/cfbjnolbecdkggpliifcalefgjoebbld" className="text-blue-500 hover:text-blue-700">インストール先</a>/
                             <a href="https://github.com/simeiro/chorusMedley" className="text-blue-500 hover:text-blue-700">GitHub</a>/
-                            <a href="https://x.com/simeir0" className="text-blue-500 hover:text-blue-700">きじ</a>
+                            {/* <a href="https://x.com/simeir0" className="text-blue-500 hover:text-blue-700">きじ</a> */}
                             
                         </div>
                         <div className="flex-1 overflow-hidden ">
@@ -90,7 +90,7 @@ export default function Product(){
                         <p>Licensed under Creative Commons: By Attribution 3.0 License</p>
                     </div>
                 </details>
-                <details className="text-slate-600">
+                {/* <details className="text-slate-600">
                     <summary className="text-2xl">blog.simeiro / 個人ブログ</summary>
                     <div className="w-auto h-auto bg-slate-50 border-4  flex flex-col m-4">
                         <div className="pt-4">
@@ -111,7 +111,7 @@ export default function Product(){
                             />
                         </div>
                     </div>
-                </details>
+                </details> */}
                 <details className="text-slate-600">
                     <summary className="text-2xl">Taber / Chrome拡張機能</summary>
                     <div className="w-auto h-auto bg-slate-50 border-4  flex flex-col m-4">
@@ -219,6 +219,11 @@ export default function Product(){
                         <div className="pt-4">
                             <h3 className="text-2xl text-slate-600">sorcery-assemble</h3>
                             <p className="text-xl pb-4">C.A.C.新歓祭2024</p>
+                            <p>魔術が使えるようになるプラグインです。</p>
+                            <p>動画では葬送のフリーレンの花畑を出す魔法を再現しています。</p>
+                            <p>オブジェクト指向に苦戦しつつ、1週間程度で開発しました。</p>
+                            <p>（完全版はできていないです。）</p>
+                            <p>使用技術: Java</p>
                         </div>
                         <div className="flex-1 overflow-hidden">
                             <video
@@ -265,8 +270,11 @@ export default function Product(){
                         <div className="pt-4">
                             <h3 className="text-2xl text-slate-600">ある音を聞いてその周波数を答えるクソゲー</h3>
                             <p className="text-xl pb-4">C.A.C.神山祭2024展示作品</p>
-                            <p className="text-slate-600">聴こえた周波数を当てるゲーム</p>
-                            <p className="text-slate-600">学祭にて展示</p>
+                            <p>学祭に展示したゲームです。</p>
+                            <p>UI, 音楽, プログラミングの3つに分けて開発し、僕はプログラミングを担当しました。</p>
+                            <p>小さい子どもから、大人の方、まで様々な人がプレイしてくれました。</p>
+                            <p>特に音楽を作っている部員からは好評でした。</p>
+                            <p>使用技術: C#, Unity</p>
                             <a href="https://github.com/simeiro/frequency-game" className="text-blue-500 hover:text-blue-700">GitHub</a>/
                             <a href="https://unityroom.com/games/hzgame" className="text-blue-500 hover:text-blue-700">unityroom</a>
                         </div>
