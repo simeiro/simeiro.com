@@ -40,7 +40,7 @@ export default function Product(){
                             <p>多機能なbotなので、Cogと呼ばれるものを用いてコマンドごとに</p>
                             <p>クラス分けし、可読性を向上させました。</p>
                             <p>使用技術: Python(Discord.py)</p>
-                            <a href="https://github.com/simeiro/Highlight39Revised" className="text-blue-500 hover:text-blue-700">GitHub</a>
+                            <a href="https://github.com/c-a-c/teireisoukai" className="text-blue-500 hover:text-blue-700">GitHub</a>
                         </div>
                         <div className="flex-1 overflow-hidden">
                             <Image
