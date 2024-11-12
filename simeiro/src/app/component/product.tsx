@@ -14,7 +14,7 @@ export default function Product(){
                         <p>使用技術: Python(Discord.py), SQLite</p>
                         <a href="このリンク" className="text-blue-500 hover:text-blue-700">招待リンク</a>/
                         <a href="https://github.com/simeiro/Highlight39Revised" className="text-blue-500 hover:text-blue-700">GitHub</a>/
-                        {/* <a href="https://x.com/simeir0" className="text-blue-500 hover:text-blue-700">きじ</a> */}
+                        <a href="https://note.com/simeiro33/n/nd8826f89bf3b" className="text-blue-500 hover:text-blue-700">制作記事</a>
                     </div>
                     <div className="flex-1 overflow-hidden">
                         <Image
@@ -69,7 +69,7 @@ export default function Product(){
                             <p>使用技術: HTML/CSS, JavaScript</p>
                             <a href="https://chromewebstore.google.com/detail/chorusmedley/cfbjnolbecdkggpliifcalefgjoebbld" className="text-blue-500 hover:text-blue-700">インストール先</a>/
                             <a href="https://github.com/simeiro/chorusMedley" className="text-blue-500 hover:text-blue-700">GitHub</a>/
-                            {/* <a href="https://x.com/simeir0" className="text-blue-500 hover:text-blue-700">きじ</a> */}
+                            <a href="https://note.com/simeiro33/n/ne38801d698f0" className="text-blue-500 hover:text-blue-700">制作経緯の記事</a>
                             
                         </div>
                         <div className="flex-1 overflow-hidden ">
