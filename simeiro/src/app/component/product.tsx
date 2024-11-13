@@ -12,6 +12,7 @@ export default function Product(){
                         <p className="text-xl pb-4">個人開発</p>
                         <p className="">最新の人気ボカロ曲を送信してくれるDiscord bot</p>
                         <p>使用技術: Python(Discord.py), SQLite</p>
+                        <p>開発時期: 2024年5月</p>
                         <a href="このリンク" className="text-blue-500 hover:text-blue-700">招待リンク</a>/
                         <a href="https://github.com/simeiro/Highlight39Revised" className="text-blue-500 hover:text-blue-700">GitHub</a>/
                         <a href="https://note.com/simeiro33/n/nd8826f89bf3b" className="text-blue-500 hover:text-blue-700">制作記事</a>
@@ -40,6 +41,7 @@ export default function Product(){
                             <p>多機能なbotなので、Cogと呼ばれるものを用いてコマンドごとに</p>
                             <p>クラス分けし、可読性を向上させました。</p>
                             <p>使用技術: Python(Discord.py)</p>
+                            <p>開発時期: 2024年4月</p>
                             <a href="https://github.com/c-a-c/teireisoukai" className="text-blue-500 hover:text-blue-700">GitHub</a>
                         </div>
                         <div className="flex-1 overflow-hidden">
@@ -67,6 +69,7 @@ export default function Product(){
                             <p>今まで作ったプロダクトの中で一番使っているお気に入りのものです。</p>
                             <p>開発を通してAPIの利用、非同期処理についての理解度が深まりました。</p>
                             <p>使用技術: HTML/CSS, JavaScript</p>
+                            <p>開発時期: 2023年7月</p>
                             <a href="https://chromewebstore.google.com/detail/chorusmedley/cfbjnolbecdkggpliifcalefgjoebbld" className="text-blue-500 hover:text-blue-700">インストール先</a>/
                             <a href="https://github.com/simeiro/chorusMedley" className="text-blue-500 hover:text-blue-700">GitHub</a>/
                             <a href="https://note.com/simeiro33/n/ne38801d698f0" className="text-blue-500 hover:text-blue-700">制作経緯の記事</a>
@@ -129,6 +132,7 @@ export default function Product(){
                             <p>自分がアイデア出しを主に行っていて</p>
                             <p>そこが評価されたのはとても嬉しかったです。</p>
                             <p>使用技術: HTML/CSS, JavaScript, jQuery</p>
+                            <p>開発時期: 2023年1月</p>
                             <a href="https://chromewebstore.google.com/detail/taber/cbfbjkdodflcnidgamdjnmochcmchopl?hl=ja" className="text-blue-500 hover:text-blue-700">インストール先</a>/
                             <a href="https://github.com/simeiro/Taber" className="text-blue-500 hover:text-blue-700">GitHub</a>/
                             <a href="https://note.supporterz.jp/n/n7d91b0b6fdf8#8adc63ac-3dff-4290-a87c-05e575a376c0" className="text-blue-500 hover:text-blue-700">ハッカソン記事</a>/
@@ -164,6 +168,7 @@ export default function Product(){
                         <p>最終的に形になって動いてくれたのでそれがとても嬉しかったです。</p>
                         <p>開発は6割くらい担当しました。</p>
                         <p>使用技術: Flutter</p>
+                        <p>開発時期: 2023年8月</p>
                         <a href="https://github.com/simeiro/amanojaku" className="text-blue-500 hover:text-blue-700">GitHub</a>/
                         <a href="https://www.canva.com/design/DAFsvBHtIOk/Xe5QbiARnON_RkC_PGOXjA/edit" className="text-blue-500 hover:text-blue-700">発表資料</a>
                     </div>
@@ -198,6 +203,7 @@ export default function Product(){
                         <p>2回の最優秀賞を通してアイデア力に自信を持つことができました。</p>
                         <p>開発は2割程度（Firebaseの部分）と画像認識の下調べを担当しました。</p>
                         <p>使用技術: AndroidStudio, TensorFlowLite, Firebase</p>
+                        <p>開発時期: 2024年2月</p>
                         <a href="https://github.com/kc3hack/2024_I" className="text-blue-500 hover:text-blue-700">GitHub</a>/
                         <a href="https://kc3.me/news/2405/" className="text-blue-500 hover:text-blue-700">ハッカソン記事</a>/
                         <a href="https://docs.google.com/presentation/d/1gToIVq8YrHVcBQ7qoljZenX3hmChI1NRLITWgunACJA/edit#slide=id.g1f2b2243f2e_3_44" className="text-blue-500 hover:text-blue-700">発表資料</a>
@@ -224,6 +230,7 @@ export default function Product(){
                             <p>オブジェクト指向に苦戦しつつ、1週間程度で開発しました。</p>
                             <p>（完全版はできていないです。）</p>
                             <p>使用技術: Java</p>
+                            <p>開発時期: 2024年3~4月</p>
                         </div>
                         <div className="flex-1 overflow-hidden">
                             <video
@@ -251,6 +258,8 @@ export default function Product(){
                             <p>コミュニケーションなど様々なところで失敗しました。</p>
                             <p>その反省も踏まえて、もっとチーム開発を経験して</p>
                             <p>エンジニア職に就けるような実力をつけたいです。</p>
+                            <p>使用技術: Java</p>
+                            <p>開発時期: 2024年4月~7月</p>
                         </div>
                         <div className="flex-1 overflow-hidden">
                             <video
@@ -276,6 +285,7 @@ export default function Product(){
                             <p>小さい子どもから、大人の方、まで様々な人がプレイしてくれました。</p>
                             <p>特に音楽を作っている部員からは好評でした。</p>
                             <p>使用技術: C#, Unity</p>
+                            <p>開発時期: 2024年10月</p>
                             <a href="https://github.com/simeiro/frequency-game" className="text-blue-500 hover:text-blue-700">GitHub</a>/
                             <a href="https://unityroom.com/games/hzgame" className="text-blue-500 hover:text-blue-700">unityroom</a>
                         </div>
