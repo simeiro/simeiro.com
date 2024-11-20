@@ -1,6 +1,7 @@
 // app/blog/[id]/page.tsx
 import { client } from '@/app/component/microcms';
 import dayjs from 'dayjs';
+import styles from './page.module.css';
 
 // ブログ記事の型定義
 type Props = {
@@ -27,11 +28,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
   const formattedDate = dayjs(post.publishedAt).format('YY.MM.DD');
 
   return (
-    <main>
-      <h1>{post.title}</h1> {/* タイトルを表示 */}
-      <div>{formattedDate}</div> {/* 日付を表示 */}
+    <main className={styles.main}>
+      <h1 className={styles.title}>{post.title}</h1> {/* タイトルを表示 */}
+      <div className={styles.date}>{formattedDate}</div> {/* 日付を表示 */}
       {/* <div>カテゴリー：{post.category && post.category.name}</div> カテゴリーを表示 */}
-      <div dangerouslySetInnerHTML={{ __html: post.content }} /> {/* 記事本文を表示 */}
+      <div className={styles.post} dangerouslySetInnerHTML={{ __html: post.content }} /> {/* 記事本文を表示 */}
     </main>
   );
 }
