@@ -19,8 +19,12 @@ export default function Home() {
             <li>自己紹介
               <p>simeiro(しめいろ)です。ボカロがすき。</p>
             </li>
-            <li><a href="https://blog.simeiro.com">blog.simeiro</a></li>
-              <p>ブログ開設予定です。今年中にはなんとか、、、</p>
+            <li>
+            <Link href="/articles" className="text-blue-500 hover:text-blue-700">
+                simeiroのブログ
+              </Link>
+            </li>
+              <p>仮開設中です。</p>
               <p>日々の出来事、定期的にボカロ曲を布教、技術記事を書いてみたい。</p>
               
             <li>
