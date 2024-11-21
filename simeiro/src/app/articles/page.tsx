@@ -5,13 +5,19 @@ import dayjs from 'dayjs';
 import styles from './page.module.css';
 
 // ブログ記事の型定義
+interface Eyecatch {
+  url: string;
+  height: number;
+  width: number;
+}
+
 type Props = {
   id: string;
   title: string;
   publishedAt: string;
-
-  eyecatch: any;
+  eyecatch: Eyecatch; 
 };
+
 
 // microCMSからブログ記事を取得
 async function getBlogPosts(): Promise<Props[]> {
