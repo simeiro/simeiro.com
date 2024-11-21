@@ -3,13 +3,19 @@ import { client } from '@/app/component/microcms';
 import dayjs from 'dayjs';
 import styles from './page.module.css';
 
+interface Eyecatch {
+  url: string;
+  height: number;
+  width: number;
+}
+
 // ブログ記事の型定義
 type Props = {
   id: string;
   title: string;
   content: string;
   publishedAt: string;
-  eyecatch: any;
+  eyecatch: Eyecatch;
 }
 
 // microCMSから特定の記事を取得
