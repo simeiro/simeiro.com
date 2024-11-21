@@ -2,7 +2,6 @@
 import { client } from '@/app/component/microcms';
 import dayjs from 'dayjs';
 import styles from './page.module.css';
-import Image from "next/image";
 
 // ブログ記事の型定義
 type Props = {
@@ -37,13 +36,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
       <main className={styles.main}>
         <h1 className={styles.title}>{post.title}</h1> {/* タイトルを表示 */}
         <div className={styles.date}>{formattedDate}</div> {/* 日付を表示 */}
-        {/* <Image
-            src={post.eyecatch.url}
-            width={400}
-            height={400}
-            alt="アイキャッチ"
-            className="flex items-center justify-center"
-          /> */}
         {/* <div>カテゴリー：{post.category && post.category.name}</div> カテゴリーを表示 */}
         <div className={styles.post} dangerouslySetInnerHTML={{ __html: post.content }} /> {/* 記事本文を表示 */}
       </main>
