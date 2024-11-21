@@ -93,28 +93,25 @@ export default function Product(){
                         <p>Licensed under Creative Commons: By Attribution 3.0 License</p>
                     </div>
                 </details>
-                {/* <details className="text-slate-600">
-                    <summary className="text-2xl">blog.simeiro / 個人ブログ</summary>
+                <details className="text-slate-600">
+                    <summary className="text-2xl"><a href="https://simeiro.com" className="text-blue-500 hover:text-blue-700">simeiro.com</a>/ ホームページ、ブログ</summary>
                     <div className="w-auto h-auto bg-slate-50 border-4  flex flex-col m-4">
                         <div className="pt-4">
-                            <h3 className="text-2xl text-slate-600">blog.simeiro</h3>
-                            <p className="text-xl pb-4">個人開発</p>
-                            <p>日々の出来事、聴いているボカロ、技術記事などを書く個人ブログです</p>
-                            <p>使用技術: Next.js</p>
-                            <a href="https://github.com/simeiro/blog.simeiro" className="text-blue-500 hover:text-blue-700">GitHub</a>
-                            
+                            <h3 className="text-2xl text-slate-600">simeiro.com</h3>
+                            <p>個人のホームページ、ブログです。</p>
                         </div>
                         <div className="flex-1 overflow-hidden">
-                            <Image
-                                src="/profile/simeiro.jpg"
+                            {/* <Image
+                                src="/product/Taber.png"
                                 width={500}
                                 height={500}
-                                alt="Chorus Medley"
+                                alt="Taber"
                                 className="w-full h-full object-cover"
-                            />
+                            /> */}
+
                         </div>
                     </div>
-                </details> */}
+                </details>
                 <details className="text-slate-600">
                     <summary className="text-2xl">Taber / Chrome拡張機能</summary>
                     <div className="w-auto h-auto bg-slate-50 border-4  flex flex-col m-4">

@@ -1,0 +1,24 @@
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
+.post {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    background-color:#fcfcfc;
+    border-radius: 4px;
+    transition: background-color 0.1s ease;
+}
+
+.post:hover{
+    background-color:white;
+}
+
+.image_width {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}

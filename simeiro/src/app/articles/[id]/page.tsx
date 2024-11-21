@@ -2,6 +2,7 @@
 import { client } from '@/app/component/microcms';
 import dayjs from 'dayjs';
 import styles from './page.module.css';
+import Image from "next/image";
 
 // ブログ記事の型定義
 type Props = {
@@ -9,7 +10,8 @@ type Props = {
   title: string;
   content: string;
   publishedAt: string;
-};
+  eyecatch: any;
+}
 
 // microCMSから特定の記事を取得
 async function getBlogPost(id: string): Promise<Props> {
@@ -28,12 +30,25 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
   const formattedDate = dayjs(post.publishedAt).format('YY.MM.DD');
 
   return (
-    <main className={styles.main}>
-      <h1 className={styles.title}>{post.title}</h1> {/* タイトルを表示 */}
-      <div className={styles.date}>{formattedDate}</div> {/* 日付を表示 */}
-      {/* <div>カテゴリー：{post.category && post.category.name}</div> カテゴリーを表示 */}
-      <div className={styles.post} dangerouslySetInnerHTML={{ __html: post.content }} /> {/* 記事本文を表示 */}
-    </main>
+    <div className="bg-slate-50">
+      <header className="bg-white w-auto mb-10">
+        <a href="./"><h1 className="text-5xl m-4">simeiroのブログ</h1></a>
+      </header>
+      <main className={styles.main}>
+        <h1 className={styles.title}>{post.title}</h1> {/* タイトルを表示 */}
+        <div className={styles.date}>{formattedDate}</div> {/* 日付を表示 */}
+        {/* <Image
+            src={post.eyecatch.url}
+            width={400}
+            height={400}
+            alt="アイキャッチ"
+            className="flex items-center justify-center"
+          /> */}
+        {/* <div>カテゴリー：{post.category && post.category.name}</div> カテゴリーを表示 */}
+        <div className={styles.post} dangerouslySetInnerHTML={{ __html: post.content }} /> {/* 記事本文を表示 */}
+      </main>
+    </div>
+    
   );
 }
 
