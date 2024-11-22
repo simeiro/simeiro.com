@@ -5,7 +5,7 @@ export default function Home() {
   return (
    <>
     <div className="bg-teal-100 min-h-screen w-screen">
-      <div className="pt-48 flex items-start flex-wrap justify-center">
+      <div className="pt-48 flex items-start flex-wrap justify-center mx-4">
         <Image
           src="/profile/simeiro.jpg"
           width={400}
