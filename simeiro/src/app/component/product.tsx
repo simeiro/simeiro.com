@@ -101,7 +101,7 @@ export default function Product(){
                             <p>個人のホームページ、ブログです。</p>
                             <p>使用技術: Next.js</p>
                             <p>開発時期: 2024年11月（継続中）</p>
-                            <a href="../articles" className="text-xs text-blue-500 hover:text-blue-700">秋の未確認生物(long ver) / 音街ウナ by 子牛</a>
+                            <a href="../articles" className="text-xs text-blue-500 hover:text-blue-700">ブログページ</a>
 
                         </div>
                         <div className="flex-1 overflow-hidden">
