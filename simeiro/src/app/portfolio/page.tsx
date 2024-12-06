@@ -108,6 +108,37 @@ export default function Portfolio(){
                         </div>
                 </details>
             </div>
+
+            <h2 className="pt-10 text-5xl text-center text-slate-600">Other</h2>
+            <div className="py-4 w-auto flex flex-col items-center flex-wrap justify-center">
+                <details className="text-slate-600">
+                        <summary className="text-2xl">AtCoder</summary>
+                        <div className="w-auto h-auto bg-slate-50 border-4  flex flex-col m-4">
+                            <div className="pt-4">
+                                <h3 className="text-2xl">AtCoder</h3>
+                                <p className="text-xl pb-4">期間: 2023年4月〜2023年10月</p>
+                                <p>大学の課題で上手く実装できないことがきっかけで始めました。</p>
+                                <p>先輩から茶色にいけば、実装で困ることがほとんどないよという</p>
+                                <p>助言から茶色を目指すことにしました。</p>
+                                <p>茶色に到達する頃には問題を解決するまでにどのような道筋でいけば</p>
+                                <p>いいかを考える癖がつくようになりました。</p>
+                                <p>プログラミングをする上で大切な癖を付けることができ</p>
+                                <p>有意義な期間だったと思っています。</p>
+                                <p>使用言語: Python</p>
+                                <a href="https://atcoder.jp/users/simeiro?lang=ja" className="text-blue-500 hover:text-blue-700">AtCoder</a>
+                            </div>
+                            <div className="flex-1 overflow-hidden">
+                                <Image
+                                    src="https://img.shields.io/endpoint?url=https%3A%2F%2Fatcoder-badges.now.sh%2Fapi%2Fatcoder%2Fjson%2Fsimeiro"
+                                    width={100}
+                                    height={100}
+                                    alt="Highlight39"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                        </div>
+                </details>
+            </div>
         </div>
     );
 }
