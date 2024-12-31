@@ -128,13 +128,6 @@ export default function Portfolio(){
                                 <a href="https://atcoder.jp/users/simeiro?lang=ja" className="text-blue-500 hover:text-blue-700">AtCoder</a>
                             </div>
                             <div className="flex-1 overflow-hidden">
-                                <Image
-                                    src="https://img.shields.io/endpoint?url=https%3A%2F%2Fatcoder-badges.now.sh%2Fapi%2Fatcoder%2Fjson%2Fsimeiro"
-                                    width={100}
-                                    height={100}
-                                    alt="Highlight39"
-                                    className="w-full h-full object-cover"
-                                />
                             </div>
                         </div>
                 </details>
