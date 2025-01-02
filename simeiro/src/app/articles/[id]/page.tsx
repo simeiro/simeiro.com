@@ -28,11 +28,12 @@ type Props = {
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params; // IDを取得
   const post = await getBlogPost(id);
-  const text = post.content.replace(/<[^>]+>/g, '').substring(0, 50);
+  const text = post.content.replace(/<[^>]+>/g, '').substring(0, 50) + "...";
   return {
-    title: post.title,
-    description: text,
     openGraph: {
+      siteName: "simeiro.com",
+      title: post.title,
+      description: text,
       images: [
         {
           url: post.eyecatch.url,
