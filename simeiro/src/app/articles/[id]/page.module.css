@@ -10,21 +10,28 @@
     font-weight: bold;
     color: #222;
     margin: 1rem 0;
-    text-align: center;
     line-height: 1.2;
   }
   
   .date {
     font-size: 0.875rem;
     color: #888;
-    text-align: center;
     margin-bottom: 0.5rem;
+    margin-right: 1.5rem;
   }
   
-  .category {
+  .tag {
     font-size: 0.875rem;
     text-align: center;
-    margin-bottom: 2rem;
+    padding: 0px 5px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    border-radius: 20px;
+    border: 2px solid black;
+  }
+
+  .tag:hover {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); /* 影を追加 */
   }
 
   .container {

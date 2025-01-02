@@ -17,8 +17,32 @@
     background-color:white;
 }
 
+.postAll{
+    width: 800px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color:#fcfcfc;
+    border-radius: 4px;
+    transition: background-color 0.1s ease;
+}
+
 .image_width {
     width: 300px;
     height: 300px;
     position: relative;
 }
+
+.tag {
+    font-size: 0.875rem;
+    text-align: center;
+    padding: 0px 5px;
+    margin-bottom: 1px;
+    margin-right: 1rem;
+    border-radius: 20px;
+    border: 2px solid #777;
+  }
+
+  .tag:hover {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); /* 影を追加 */
+  }
