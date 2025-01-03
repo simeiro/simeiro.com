@@ -1,6 +1,8 @@
 // app/blog/[id]/page.tsx
 import { client } from '@/app/component/microcms';
 import type { Metadata } from 'next';
+import Image from "next/image";
+import Link from 'next/link';
 import dayjs from 'dayjs';
 import styles from './page.module.css';
 
@@ -62,6 +64,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
   const formattedPublished = dayjs(post.publishedAt).format('YYYY/MM/DD');
   const formattedUpdated = dayjs(post.updatedAt).format('YYYY/MM/DD');
 
+  const shareX = `https://x.com/intent/post?text=${post.title}&url=https://simeiro.com/articles/${post.id}%0A&hashtags=simeiroのブログ`
+
   return (
     <div className="bg-slate-50">
       <header className="bg-white w-auto mb-10">
@@ -79,8 +83,20 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
           <div className={styles.date}>投稿: {formattedPublished}</div> 
           <div className={styles.date}>最終更新: {formattedUpdated}</div> 
         </div>
-        {/* <div>カテゴリー：{post.tags.forEach && post.category.name}</div> カテゴリーを表示 */}
         <div className={styles.post} dangerouslySetInnerHTML={{ __html: post.content }} /> {/* 記事本文を表示 */}
+        <div className="float-right my-4">
+          <Link href={shareX} target='_blank'>
+            <Image
+              src="/x-logo.png"
+              width={25}
+              height={25}
+              alt="アイキャッチ"
+              className="hover:scale-110"
+            />
+          </Link>
+          
+        </div>
+        
       </main>
     </div>
     
