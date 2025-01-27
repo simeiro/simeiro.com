@@ -24,7 +24,7 @@ export default function Home() {
                 simeiroのブログ
               </Link>
             </li>
-              <p>日々の出来事、定期的にボカロ曲を布教、技術記事を書いてみたい。</p>
+              <p>日々の出来事、ボカロ曲の布教、たまに技術</p>
               
             <li>
               <Link href="/portfolio" className="text-blue-500 hover:text-blue-700">
