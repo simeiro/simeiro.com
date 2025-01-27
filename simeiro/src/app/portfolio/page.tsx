@@ -3,7 +3,7 @@ import Product from '@/app/component/product';
 
 export default function Portfolio(){
     return(
-        <div className="bg-teal-100 min-h-screen w-screen">
+        <div className="min-h-screen w-screen">
             <h1 className="py-10 text-5xl text-slate-600 text-center">ポートフォリオ</h1>
             {/* <Image
                 src="/profile/tatsukushi.jpg"
