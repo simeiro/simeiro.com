@@ -26,12 +26,12 @@ export default function Home() {
             </li>
               <p>日々の出来事、ボカロ曲の布教、たまに技術</p>
               
-            <li>
+            {/* <li>
               <Link href="/portfolio" className="text-blue-500 hover:text-blue-700">
                 就活用ポートフォリオ
               </Link>
             </li>
-              <p>大学3年生までのことをまとめています。</p>
+              <p>大学3年生までのことをまとめています。</p> */}
             <li>各種SNS</li>
             <p>
               <a href="https://x.com/simeir0" className="text-blue-500 hover:text-blue-700">X(Twitter)</a>/

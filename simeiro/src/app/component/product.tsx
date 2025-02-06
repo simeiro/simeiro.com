@@ -301,6 +301,28 @@ export default function Product(){
                         </div>
                     </div>
                 </details>
+                <details className="text-slate-600">
+                    <summary className="text-2xl">背景の色からボカロ曲を当てるゲーム / webゲーム</summary>
+                    <div className="w-auto h-auto bg-slate-50 border-4  flex flex-col m-4">
+                        <div className="pt-4">
+                            <h3 className="text-2xl text-slate-600">背景の色からボカロ曲を当てるゲーム</h3>
+                            <p className="text-xl pb-4">個人制作</p>
+                            <p>使用技術: Next.js</p>
+                            <p>開発時期: 2025年2月</p>
+                            <a href="https://github.com/simeiro/vocolor" className="text-blue-500 hover:text-blue-700">GitHub</a>/
+                            <a href="https://vocolor.vercel.app/" className="text-blue-500 hover:text-blue-700">ゲームのリンク</a>
+                        </div>
+                        <div className="flex-1 overflow-hidden">
+                            <Image
+                                src="/product/card.png"
+                                width={500}
+                                height={500}
+                                alt="hzgame"
+                                className="w-full h-full object-cover"
+                            />
+                        </div>
+                    </div>
+                </details>
             </div>
         </>
     );
