@@ -39,9 +39,9 @@ async function getBlogPosts(): Promise<Props[]> {
 export default async function Home() {
   const posts = await getBlogPosts();
   const newPosts = posts.slice(0, 4);
-  const filterPosts = (tag: string, limit: number) => {
-    return posts.filter(post => post.tags.some(t => t.tag === tag)).slice(0, limit);
-  };
+  // const filterPosts = (tag: string, limit: number) => {
+  //   return posts.filter(post => post.tags.some(t => t.tag === tag)).slice(0, limit);
+  // };
   // const programmingPosts = filterPosts("プログラミング", 2);
   // const vocaloPosts = filterPosts("ボカロ", 2);
   // const lifePosts = filterPosts("日常", 2);
