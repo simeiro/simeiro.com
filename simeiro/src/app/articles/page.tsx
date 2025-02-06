@@ -42,9 +42,9 @@ export default async function Home() {
   const filterPosts = (tag: string, limit: number) => {
     return posts.filter(post => post.tags.some(t => t.tag === tag)).slice(0, limit);
   };
-  const programmingPosts = filterPosts("プログラミング", 2);
-  const vocaloPosts = filterPosts("ボカロ", 2);
-  const lifePosts = filterPosts("日常", 2);
+  // const programmingPosts = filterPosts("プログラミング", 2);
+  // const vocaloPosts = filterPosts("ボカロ", 2);
+  // const lifePosts = filterPosts("日常", 2);
 
   return (
     <div className="bg-slate-50">
